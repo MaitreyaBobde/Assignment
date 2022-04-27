@@ -23,7 +23,7 @@ function LaunchScreen({ route }) {
             {"Date Launched:  " + launch.date_utc.slice(0, 10)}
           </AppText>
           <AppText style={styles.reused}>
-            {" "}
+            {""}
             {launch.fairings != null &&
               "Reused: " + launch.fairings.reused}{" "}
           </AppText>

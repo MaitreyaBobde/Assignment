@@ -10,7 +10,7 @@ import colors from "../config/colors";
 const nolaunchMessage = () => {
   return (
     <View style={styles.card}>
-      <AppText style={styles.nolaunch}>{"No Launches Available"}</AppText>
+      <AppText style={styles.nolaunch}>{"No Launch Available"}</AppText>
     </View>
   );
 };
